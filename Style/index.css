@@ -47,8 +47,8 @@ h1{
 .hexagon-wrapper {
     margin: auto;
     text-align: initial;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
   }
   
@@ -58,7 +58,7 @@ h1{
     height: 80%;
     margin: auto;
     color: white;
-    background: linear-gradient(-180deg, rgb(231, 238, 236), #379286b0);
+    background: linear-gradient(-180deg, rgb(0, 27, 22), #2c9094ea);
     display: flex;
     align-content: center;
     justify-content: center;
