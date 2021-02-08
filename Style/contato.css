@@ -1,4 +1,12 @@
 body {
-    background-image: url('imagens/contato.png');
-    background-size: 100%;
-  }
+  background-image: url('imagens/contato.png');
+  background-size: 100%;
+  width: 100%;
+  height: 900px;
+}
+.icones-sociais li {
+  display:inline-block;
+  float: right;
+  margin-top: 65%;
+  size: 40px;
+}
