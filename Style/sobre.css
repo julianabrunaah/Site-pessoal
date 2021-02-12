@@ -19,7 +19,7 @@ footer {
 	width: 300px;
 	height: inherit;
 	position: absolute;
-	top: 10%;
+	top: 13%;
 	left: 20%;
 }
 .icones-sociais li {
@@ -67,14 +67,22 @@ a {
 }
 
 p {
-	text-align: justify;
+    text-align: justify;
 	color: #f5eded;
+}
+.txtsobre{
 	width: 500px;
 	position: absolute;
-	top: 55%;
+	top: 50%;
 	left: 12%;
 }
-
+.txtfooter{
+	top: 95%;
+	left: 25%;
+	position: absolute;
+	float: left;
+	text-align: center;
+}
 .toggle,
 [id^=drop] {
 	display: none;

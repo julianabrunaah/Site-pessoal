@@ -47,8 +47,17 @@ h3 a {
 a {
 	color: #FFF;
 }
-
-
+p {
+	text-align: justify;
+	color: #f5eded;
+}
+.txtfooter{
+	top: 95%;
+	left: 25%;
+	position: absolute;
+	float: left;
+	text-align: center;
+}
 #container {
 	margin: 0 auto;
 	max-width: 890px;
@@ -100,14 +109,6 @@ a {
   .fijar {
 	margin-top: -100px;
   }
-p {
-	text-align: justify;
-	color: #f5eded;
-	width: 500px;
-	position: absolute;
-	top: 55%;
-	left: 12%;
-}
 
 .toggle,
 [id^=drop] {

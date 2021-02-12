@@ -19,9 +19,8 @@
       width: 300px;
       height: inherit;
       position: absolute;
-      top: 10%;
+      top: 13%;
       left: 20%;
-  
   }
   .icones-sociais li {
       display:inline-block;
@@ -70,12 +69,14 @@
   p {
       text-align: justify;
       color: #f5eded;
-      width: 500px;
-      position: absolute;
-      top: 55%;
-      left: 12%;
   }
-  
+  .txtfooter{
+      top: 95%;
+      left: 25%;
+      position: absolute;
+      float: left;
+      text-align: center;
+  }
   .toggle,
   [id^=drop] {
       display: none;
@@ -156,4 +157,3 @@
   /* Change ' +' in order to change the Dropdown symbol */
   li > a:after { content:  ' +'; }
   li > a:only-child:after { content: ''; }
-  
