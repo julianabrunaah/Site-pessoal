@@ -14,8 +14,13 @@ body {
 	margin: 0 auto;
 	margin-top: 5rem;
 }
-.banner{
-	background: url(../Style/imagens/banner.png) center no-repeat;
+.bannerindex{
+	background: url(../Style/imagens/bannerindex.png) center no-repeat;
+	height: 90vh;
+	padding-top: 8rem;
+}
+.bannersobre{
+	background: url(../Style/imagens/bannersobre.png) center no-repeat;
 	height: 90vh;
 	padding-top: 8rem;
 }
@@ -24,6 +29,22 @@ body {
 }
 .sobretitulo{
 	font-size: 1rem;
+	padding-right: 60%;
+	text-align: justify;
+}
+.titulo-index{
+	font-size: 5rem;
+	padding-left: 60%;
+}
+.sobretitulo-index{
+	font-size: 1rem;
+	padding-left: 60%;
+	text-align: justify;
+}
+.titulo-contato{
+	font-size: 2rem;
+	color: ##EA614B;
+	padding-left: 45%;
 }
 .txtsobre{
 	width: 70%;
@@ -31,11 +52,18 @@ body {
     list-style: 1.5;
 	text-align: justify;
 	padding-left: 10rem;
-	margin: 0 1rem;
+	margin: 5rem;
 }
-.sobresvg{
-	margin-top: 10%;
-	padding-left: 15rem;
+section {
+	top: 10vh;
+    width: 40%;
+}
+.img-contato{
+	width: 100%;
+}
+.lado-contato{
+	max-width: 30%;
+	padding-left: 10%;
 }
 footer {
   background-color: #ffffff;
@@ -49,6 +77,51 @@ footer {
 }
 .footer-copy-texto{
 	color: black;
+}
+.formulario {
+	margin: 5vh;
+	width: 50%;
+	padding-left: 40%;
+	box-shadow: 0 0 50px 1px rgba(0,0,0,0.3);
+	top: 10vh;
+}
+.formulario_input, .formulario_label, .formulario_submit {
+	display: block;
+	font-size: 1.3em;
+	color: white;
+	font-family: monospace;
+}
+.formulario_input {
+	width: 500px;
+	height: 40px;
+	padding: auto;
+	border: 1px solid rgba(255, 249, 249, 0.3);
+	margin-bottom: 40px;
+	background: rgba(0,0,0,0.1);
+}
+.formulario_label {
+	padding-left: 5px;
+	position: absolute;
+	margin-top: -65px;
+	z-index: -40px;
+	transition: all 0.3s;
+	color: white;
+	animation: shake 0.3s;
+}
+.formulario_submit {
+	width: 500px;
+	background: transparent;
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 10px;
+	align-items: center;
+}
+.formulario_input:focus + .formulario_label {
+	margin-top: -100px;
+}
+.fijar {
+	margin-top: -100px;
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
@@ -66,7 +139,7 @@ a {
 nav { 
 	margin:0;
 	padding: 0;
-	background-color: #E0544D;
+	background-color: #EA614B;
 }
 
 #logo {
@@ -114,11 +187,11 @@ nav a {
 }
 
 
-nav ul li ul li:hover { background: #E0544D; }
+nav ul li ul li:hover { background: #EA614B; }
 
 /* Background color change on Hover */
 nav a:hover { 
-	background-color: #E0544D; 
+	background-color: #EA614B; 
 }
 
 /* Hide Dropdowns by Default
