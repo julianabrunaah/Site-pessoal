@@ -24,6 +24,11 @@ body {
 	height: 90vh;
 	padding-top: 8rem;
 }
+.bannertrabalho{
+	background: url(../Style/imagens/bannertrabalho.png) center no-repeat;
+	height: 90vh;
+	padding-top: 8rem;
+}
 .titulo{
 	font-size: 5rem;
 }
